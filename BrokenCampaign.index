@@ -4,11 +4,11 @@
 		<name>BrokenCampaign</name>
 		<description>The homebrew content from Broken Campaign. Author: Broken Doctor. Coder: Rae</description>
 		<author url="">Rae Campbell</author>
-		<update version="0.2.4">
-			<file name="BrokenCampaign.index" url="" />
+		<update version="0.2">
+			<file name="BrokenCampaign.index" url="https://raw.githubusercontent.com/Rae-Campbell/BrokenCampaign/master/BrokenCampaign.index" />
 		</update>
 	</info>
 	<files>
-		<file name="BrokenCampaignItems.xml" url="" />
+		<file name="BrokenCampaignItems.xml" url="https://raw.githubusercontent.com/Rae-Campbell/BrokenCampaign/master/BrokenCampaignItems.xml" />
 	</files>
 </index>
