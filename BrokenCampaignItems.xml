@@ -137,13 +137,6 @@
 		</setters>
 		<rules />
 	</element>
-		<setters>
-			<set name="category">Wondrous Items</set>
-			<set name="weight" lb="3">3 lb.</set>
-			<set name="type">Wondrous Item</set>
-			<set name="rarity">Very Rare</set>
-		</setters>
-	</element>
 	<element name="Hestia" type="Deity" source="BrokenCampaign" id="ID_GREEK_BROKENCAMPAIGN_DEITY_HESTIA">
 		<description>
 			<p class="flavor">goddess of home, hearth, and family</p>
