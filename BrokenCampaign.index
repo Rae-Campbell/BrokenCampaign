@@ -3,7 +3,6 @@
 	<info>
 		<name>BrokenCampaign</name>
 		<description>The homebrew content from Broken Campaign. Author: Broken Doctor. Coder: Rae</description>
-		<author>Rae Campbell</author>
 		<update version="0.2">
 			<file name="BrokenCampaign.index" url="https://raw.githubusercontent.com/Rae-Campbell/BrokenCampaign/master/BrokenCampaign.index" />
 		</update>
