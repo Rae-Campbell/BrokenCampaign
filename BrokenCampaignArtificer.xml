@@ -70,6 +70,8 @@
                     <i>(b)</i> studded leather armor
                 </li>
                 <li>thieves' tools and a dungeoneer's pack</li>
+		<li>any musical instrument and a magical item class: rare</li>
+		<li>3,000 GP and 4 Healing Potions</li>
             </ul>
             <div element="ID_BROKENCAMPAIGN_CLASS_FEATURE_ARTIFICER_ARTIFICER_SPECIALIST" />
             <div element="ID_BROKENCAMPAIGN_CLASS_FEATURE_ARTIFICER_MAGIC_ITEM_ANALYSIS" />
