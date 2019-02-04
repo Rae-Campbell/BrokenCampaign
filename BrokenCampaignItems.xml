@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<element name="Broken Campaign" type="Source" source="Broken Campaign" id="ID_SOURCE_BROKEN_CAMPAIGN">
+		 <description>
+			 <p>
+			A Broken Doctor production, filled with homebrew BS.	 
+			 </p>
+		 </description>
+        <setters>
+            <set name="abbreviation">BC</set>
+            <set name="author" abbreviation="RC">Rae Campbell</set>
+            <set name="homebrew">true</set>
+            <set name="release">20190205</set>
+        </setters>
+    </element>
 	<info>
         <name>Broken Campaign: Items</name>
         <description>Weapons that grow in power with their owners and other items found along the journey of the Broken Campaign</description>
