@@ -8,6 +8,19 @@
             <file name="BrokenCampaignArtificer.xml" url="https://raw.githubusercontent.com/Rae-Campbell/BrokenCampaign/master/BrokenCampaignArtificer.xml" />
         </update>
     </info>
+	 <element name="Broken Campaign" type="Source" source="Broken Campaign" id="ID_SOURCE_BROKEN_CAMPAIGN">
+		 <description>
+			 <p>
+			A Broken Doctor production, filled with homebrew BS.	 
+			 </p>
+		 </description>
+        <setters>
+            <set name="abbreviation">BC</set>
+            <set name="author" abbreviation="RC">Rae Campbell</set>
+            <set name="homebrew">true</set>
+            <set name="release">20190205</set>
+        </setters>
+    </element>
     <element name="Artificer" type="Class" source="BrokenCampaign" id="ID_BROKENCAMPAIGN_CLASS_ARTIFICER">
         <supports />
         <requirements />
