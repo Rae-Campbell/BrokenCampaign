@@ -1,25 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-	<element name="Broken Campaign" type="Source" source="Broken Campaign" id="ID_SOURCE_BROKEN_CAMPAIGN">
-		 <description>
-			 <p>
-			A Broken Doctor production, filled with homebrew BS.	 
-			 </p>
-		 </description>
-        <setters>
-            <set name="abbreviation">BC</set>
-            <set name="author" abbreviation="RC">Rae Campbell</set>
-            <set name="homebrew">true</set>
-            <set name="release">20190205</set>
-        </setters>
-    </element>
-    <info>
-        <name>Broken Campaign: Artificer</name>
-        <description>Makers of magic-infused objects, artificers are defined by their inventive nature.</description>
-        <update version="0.0.7">
-            <file name="BrokenCampaignArtificer.xml" url="https://raw.githubusercontent.com/Rae-Campbell/BrokenCampaign/master/BrokenCampaignArtificer.xml" />
-        </update>
-    </info>
     <element name="Artificer" type="Class" source="BrokenCampaign" id="ID_BROKENCAMPAIGN_CLASS_ARTIFICER">
         <supports />
         <requirements />
