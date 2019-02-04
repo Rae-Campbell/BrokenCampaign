@@ -10,5 +10,6 @@
 	<files>
 		<file name="BrokenCampaignItems.xml" url="https://raw.githubusercontent.com/Rae-Campbell/BrokenCampaign/master/BrokenCampaignItems.xml" />
 		<file name="BrokenCampaignArtificer.xml" url="https://raw.githubusercontent.com/Rae-Campbell/BrokenCampaign/master/BrokenCampaignArtificer.xml" />
+		<file name="Source.xml" url="https://raw.githubusercontent.com/Rae-Campbell/BrokenCampaign/master/Source.xml" />
 	</files>
 </index>
