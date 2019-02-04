@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Broken Campaign: Artificer</name>
+        <description>Makers of magic-infused objects, artificers are defined by their inventive nature.</description>
+        <author url="http://dnd.wizards.com/articles/unearthed-arcana/artificer">Wizards of the Coast</author>
+        <update version="0.0.7">
+            <file name="BrokenCampaignArtificer.xml" url="https://raw.githubusercontent.com/Rae-Campbell/BrokenCampaign/master/BrokenCampaignArtificer.xml" />
+        </update>
+    </info>
+
+	<element name="Broken Campaign: Artificer" type="Source" source="BrokenCampaign" id="ID_BROKENCAMPAIGN_SOURCE_ARTIFICER">
+		<description>
+			<p>Makers of magic-infused objects, artificers are defined by their inventive nature.</p>
+		</description>
+		<setters>
+			<set name="abbreviation">BCA</set>
+		</setters>
+	</element>
+
+    <element name="Artificer" type="Class" source="BrokenCampaign" id="ID_BROKENCAMPAIGN_CLASS_ARTIFICER">
+        <supports />
+        <requirements />
+        <description>
+            <p>A gnome sits hunched over a workbench, carefully using needle and thread to wave runes into a leather satchel. The bag shudders as she completes her work, and a sudden, loud pop echoes through the room as a portal to an extra-dimensional space springs to being in the bag's interior. She beams with pride at her newly crafted <em>bag of holding.</em></p>
+            <p class="indent">A troll growls in hunger as it looms over a dwarf, who slides a long, metal tube from a holster at his belt. With a thunderous roar, a gout of flame erupts from the tube, and the troll's growls turn into shrieks of panic as it turns to flee.</p>
+            <p class="indent">An elf scrambles up the castle's wall, Baron von Hendriks' men close behind her. As she clambers over the battlements, she reaches into her satchel, pulls out three vials, mixes their contents into a small leather bag, and flings it at her pursuers. The bag bursts at their feet, trapping them in a thick, black glue as she makes her escape.</p>
+            <p class="indent">Makers of magic-infused objects, artificers are defined by their inventive nature. Like wizards, they see magic as a complex system waiting to be decoded and controlled through a combination of thorough study and investigation. Artificers, though, focus on creating marvelous new magical objects. Spells are often too ephemeral and temporary for their tastes. Instead, they seek to craft durable, useful items.</p>
+            <h4>CUNNING INVENTORS</h4>
+            <p>Every artificer is defined by a specific craft. Artificers see mastering the basic methods of a craft as the first step to true progress, the invention of new methods and approaches. Some artificers are engineers, students of invention and warfare who craft deadly firearms that they can augment with magic. Other artificers are alchemists. Using their knowledge of magic and various exotic ingredients, they create potions and draughts to aid them on their adventures. Alchemy and engineering are the two most common areas of study for artificers, but others do exist.</p>
+            <p class="indent">All artificers are united by their curiosity and inventive nature. To an artificer, magic is an evolving art with a leading edge of discovery and mastery that pushes further ahead with each passing year. Artificers value novelty and discovery. This penchant pushes them to seek a life of adventure. A hidden ruin might hold a forgotten magic item or a beautifully crafted mirror perfect for magical enhancement. Artificers win respect and renown among their kind by uncovering new lore or inventing new methods of creation.</p>
+            <h4>INTENSE RIVALRIES</h4>
+            <p>The artificers' drive to invent and expand their knowledge creates an intense drive to uncover new magic discoveries. An artificer who hears news of a newly discovered magic item must act fast to get it before any rivals do. Good-aligned artificers recover items on adventures or offer gold or wondrous items to those who possess items they are keen to own. Evil ones have no problem committing crimes to claim what they want.</p>
+            <p class="indent">Almost every artificer has at least one rival, someone whom they seek to outdo at every turn. By the same token, artificers with similar philosophies and theories band together into loose guilds. They share their discoveries and work together to verify their theories and keep ahead of their rivals.</p>
+            <h4>CREATING AN ARTIFICER</h4>
+            <p>When creating an artificer character, think about your character's background and drive for adventure. Does the character have a rival? What is the character's relationship with the artisan or artificer who taught the basics of the craft? Talk to your DM about the role played by artificers in the campaign, and what sort of organizations and NPCs you might have ties to.</p>
+            <h4>QUICK BUILD</h4>
+            <p>You can make an artificer quickly by following these suggestions. First, put your highest ability score in Intelligence, followed by Constitution or Dexterity. Second, choose the guild artisan background.</p>
+            <h3>CLASS FEATURES</h3>
+            <p>As an artificer, you gain the following class features.</p>
+            <h5>HIT POINTS</h5>
+            <p>
+                <span class="emphasis">Hit Dice:</span>1d8 per artificer level
+                <br />
+                <span class="emphasis">Hit Points at 1st Level:</span>8 + your Constitution modifier
+                <br />
+                <span class="emphasis">Hit Points at Higher Levels:</span>1d8 (or 5) + your Constitution modifier per level after 1st
+            </p>
+            <h5>PROFICIENCIES</h5>
+            <p>
+                <span class="emphasis">Armor:</span>Light armor and medium armor 
+                <br />
+                <span class="emphasis">Weapons:</span>Simple weapons
+                <br />
+                <span class="emphasis">Tools:</span>Thieves’ tools, two other tools of your choice
+            </p>
+            <p>
+                <span class="emphasis">Saving Throws:</span>Constitution, Intelligence 
+                <br />
+                <span class="emphasis">Skills:</span>Choose three from: Arcana, Deception, History, Investigation, Medicine, Nature, Religion, Sleight of Hand
+            </p>
+            <h5>EQUIPMENT</h5>
+            <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+            <ul>
+                <li>
+                    <i>(a)</i> a handaxe and a light hammer or 
+                    <i>(b)</i> any two simple weapons
+                </li>
+                <li>
+                    <i>(a)</i> a light crossbow and 20 bolts
+                </li>
+                <li>
+                    <i>(a)</i> scale mail or
+                    <i>(b)</i> studded leather armor
+                </li>
+                <li>thieves' tools and a dungeoneer's pack</li>
+            </ul>
+            <div element="ID_BROKENCAMPAIGN_CLASS_FEATURE_ARTIFICER_ARTIFICER_SPECIALIST" />
+            <div element="ID_BROKENCAMPAIGN_CLASS_FEATURE_ARTIFICER_MAGIC_ITEM_ANALYSIS" />
+            <div element="ID_BROKENCAMPAIGN_CLASS_FEATURE_ARTIFICER_TOOL_EXPERTISE" />
+            <div element="ID_BROKENCAMPAIGN_CLASS_FEATURE_ARTIFICER_SPELLCASTING" />
+            <div element="ID_BROKENCAMPAIGN_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_ARTIFICER" />
+            <div element="ID_BROKENCAMPAIGN_CLASS_FEATURE_ARTIFICER_INFUSE_MAGIC" />
+            <div element="ID_BROKENCAMPAIGN_CLASS_FEATURE_ARTIFICER_MECHANICAL_SERVANT" />
+            <div element="ID_BROKENCAMPAIGN_CLASS_FEATURE_ARTIFICER_SOUL_OF_ARTIFICE" />
+        </description>
+        <sheet display="false">
+            <description>An inventor who seeks to merge magic, metal, and wood.</description>
+        </sheet>
+        <setters>
+            <set name="short">An inventor who seeks to merge magic, metal, and wood.</set>
+            <set name="hd">d8</set>
+        </setters>
+        <sheet display="false"/>
+        <rules>
+			 <select type="Proficiency" name="Musical Instrument" supports="Musical Instrument" number="1" />
+            <grant type="Proficiency" name="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_BROKENCAMPAIGN_MULTICLASS_ARTIFICER"/>
+            <grant type="Proficiency" name="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_BROKENCAMPAIGN_MULTICLASS_ARTIFICER"/>
+            <grant type="Proficiency" name="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_BROKENCAMPAIGN_MULTICLASS_ARTIFICER"/>
+            <grant type="Proficiency" name="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" requirements="!ID_BROKENCAMPAIGN_MULTICLASS_ARTIFICER"/>
+            <select type="Proficiency" name="Tool Proficiency (Artificer)" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_ARTISANS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_COBBLERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS|ID_PROFICIENCY_TOOL_PROFICIENCY_GLASSBLOWERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_JEWELERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_PAINTERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_POTTERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_WOODCARVERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS" number="2" requirements="!ID_BROKENCAMPAIGN_MULTICLASS_ARTIFICER"/>
+            <grant type="Proficiency" name="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_BROKENCAMPAIGN_MULTICLASS_ARTIFICER"/>
+            <grant type="Proficiency" name="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_BROKENCAMPAIGN_MULTICLASS_ARTIFICER"/>
+            <select type="Proficiency" name="Skill Proficiency (Artificer)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_RELIGION|ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" number="3" requirements="!ID_BROKENCAMPAIGN_MULTICLASS_ARTIFICER"/>
+            <grant type="Class Feature" id="ID_BROKENCAMPAIGN_CLASS_FEATURE_ARTIFICER_ARTIFICER_SPECIALIST" level="1" />
+            <grant type="Class Feature" id="ID_BROKENCAMPAIGN_CLASS_FEATURE_ARTIFICER_MAGIC_ITEM_ANALYSIS" level="1" />
+            <grant type="Class Feature" id="ID_BROKENCAMPAIGN_CLASS_FEATURE_ARTIFICER_TOOL_EXPERTISE" level="2" /
+            <grant type="Class Feature" id="ID_BROKENCAMPAIGN_CLASS_FEATURE_ARTIFICER_SPELLCASTING" level="3" />
+            <grant type="Class Feature" id="ID_BROKENCAMPAIGN_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_ARTIFICER" level="4" />
+            <grant type="Class Feature" id="ID_BROKENCAMPAIGN_CLASS_FEATURE_ARTIFICER_INFUSE_MAGIC" level="4" />
+            <grant type="Class Feature" id="ID_BROKENCAMPAIGN_CLASS_FEATURE_ARTIFICER_MECHANICAL_SERVANT" level="6" />
+            <grant type="Class Feature" id="ID_BROKENCAMPAIGN_CLASS_FEATURE_ARTIFICER_SOUL_OF_ARTIFICE" level="20" />
+        </rules>
+        <spellcasting name="Artificer" ability="Intelligence" allowReplace="true">
+            <list>Artificer</list>
+        </spellcasting>
+    </element>
+    <element name="Artificer Specialist" type="Class Feature" source="BrokenCampaign: Artificer" id="ID_BROKENCAMPAIGN_CLASS_FEATURE_ARTIFICER_ARTIFICER_SPECIALIST">
+        <description>
+            <p>At 1st level, you choose the type of Artificer Specialist you are: Alchemist or Gunsmith, both of which are detailed at the end of the class description. Your choice grants you features at 1st level and again at 3rd, 9th, 14th, and 17th level.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Archetype" name="Artificer Specialist" supports="Artificer Specialist" />
+        </rules>
+    </element>
+    <element name="Magic Item Analysis" type="Class Feature" source="BrokenCampaign: Artificer" id="ID_BROKENCAMPAIGN_CLASS_FEATURE_ARTIFICER_MAGIC_ITEM_ANALYSIS">
+        <description>
+            <p>Starting at 1st level, your understanding of magic items allows you to analyze and understand their secrets. You know the artificer spells <em>detect magic</em> and <em>identify</em>, and you can cast them as rituals. You don't need to provide a material component when casting identify with this class feature.</p>
+        </description>
+        <sheet>
+            <description>You can cast detect magic and identify as rituals, without a material component.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_IDENTIFY" level="1" spellcasting="Artificer"/>
+            <grant type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC" level="1" spellcasting="Artificer"/>
+        </rules>
+    </element>
+    <element name="Tool Expertise" type="Class Feature" source="BrokenCampaign: Artificer" id="ID_BROKENCAMPAIGN_CLASS_FEATURE_ARTIFICER_TOOL_EXPERTISE">
+        <description>
+            <p>Starting at 2nd level, your proficiency bonus is doubled for any ability check you make that uses any of the tool proficiencies you gain from this class.</p>
+        </description>
+        <sheet>
+            <description>Your proficiency bonus is doubled for any ability check you make that uses any of the tool proficiencies you gain from this class.</description>
+        </sheet>
+    </element>
+    <element name="Spellcasting" type="Class Feature" source="BrokenCampaign: Artificer" id="ID_BROKENCAMPAIGN_CLASS_FEATURE_ARTIFICER_SPELLCASTING">
+        <supports>Artificer</supports>
+        <requirements />
+        <description>
+            <p>As part of your study of magic, you gain the ability to cast spells at 3rd level. The spells you learn are limited in scope, primarily concerned with modifying creatures and objects or creating items.</p>
+            <h5>Spell Slots</h5>
+            <p>The Artificer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>
+            <h5>Spells Known of 1st Level and Higher</h5>
+            <p>You know three 1st-level spells of your choice from the artificer spell list (which appears at the end of this document).</p>
+            <p class="indent">The Spells Known column of the Artificer table shows when you learn more artificer spells of your choice from this feature. Each of these spells must be of a level for which you have spell slots on the Artificer table. </p>
+            <p class="indent">Additionally, when you gain a level in this class, you can choose one of the artificer spells you know from this feature and replace it with another spell from the artificer spell list. The new spell must also be of a level for which you have spell slots on the Artificer table.</p>
+            <h5>Spellcasting Ability</h5>
+            <p>Intelligence is your spellcasting ability for your artificer spells; your understanding of the theory behind magic allows you to wield these spells with superior skill. You use your Intelligence whenever an artificer spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for an artificer spell you cast and when making an attack roll with one.</p>
+            <br />
+            <p class="indent"><strong>Spell save DC</strong> = 8 + your proficiency bonus + your intelligence modifier</p>
+            <p class="indent"><strong>Spell attack modifier</strong> = your proficiency bonus + your intelligence modifier</p>
+            <h5>Spellcasting Focus</h5>
+            <p>You can use an arcane focus as a spellcasting focus for your artificer spells. See chapter 5, "Equipment," in the <em>Player's Handbook</em> for various arcane focus options.</p>
+            <h5>Artificer Spell List</h5>
+            <table>
+                <thead><tr><td>Spell Level</td><td>Spells</td></tr></thead>
+                <tr><td>1st</td><td><em>alarm, cure wounds, disguise self, expeditious retreat, false life, jump, longstrider, sanctuary, shield of faith</em></td></tr>
+                <tr><td>2nd</td><td><em>aid, alter self, arcane lock, blur, continual flame, darkvision, enhance ability, enlarge/reduce, invisibility, lesser restoration, levitate, magic weapon, protection from poison, rope trick, see invisibility, spider climb</em></td></tr>
+                <tr><td>3rd</td><td><em>blink, fly, gaseous form, glyph of warding, haste, protection from energy, revivify, water breathing, water walk</em></td></tr>
+                <tr><td>4th</td><td><em>arcane eye, death ward, fabricate, freedom of movement, Leomund's secret chest, Mordenkainen's faithful hound, Mordenkainen's private sanctum, Otiluke's resilient sphere, stone shape, stoneskin</em></td></tr>
+            </table>
+        </description>
+        <sheet display="false">
+            <description>As part of your study of magic you gain the ability to cast spells. You have %artificer:spellcasting:slots:count% slots of level %artificer:spellcasting:slot%</description>
+        </sheet>
+        <setters>
+            <set name="spellcastingClass">Artificer</set>
+            <set name="spellcastingAbility">Intelligence</set>
+        </setters>
+        <spellcasting name="Artificer" extend="true">
+            <extend>ID_PHB_SPELL_ALARM</extend>
+            <extend>ID_PHB_SPELL_CURE_WOUNDS</extend>
+            <extend>ID_PHB_SPELL_DISGUISE_SELF</extend>
+            <extend>ID_PHB_SPELL_EXPEDITIOUS_RETREAT</extend>
+            <extend>ID_PHB_SPELL_FALSE_LIFE</extend>
+            <extend>ID_PHB_SPELL_JUMP</extend>
+            <extend>ID_PHB_SPELL_LONGSTRIDER</extend>
+            <extend>ID_PHB_SPELL_SANCTUARY</extend>
+            <extend>ID_PHB_SPELL_SHIELD_OF_FAITH</extend>
+            <extend>ID_PHB_SPELL_AID</extend>
+            <extend>ID_PHB_SPELL_ALTER_SELF</extend>
+            <extend>ID_PHB_SPELL_ARCANE_LOCK</extend>
+            <extend>ID_PHB_SPELL_BLUR</extend>
+            <extend>ID_PHB_SPELL_CONTINUAL_FLAME</extend>
+            <extend>ID_PHB_SPELL_DARKVISION</extend>
+            <extend>ID_PHB_SPELL_ENHANCE_ABILITY</extend>
+            <extend>ID_PHB_SPELL_ENLARGE_REDUCE</extend>
+            <extend>ID_PHB_SPELL_INVISIBILITY</extend>
+            <extend>ID_PHB_SPELL_LESSER_RESTORATION</extend>
+            <extend>ID_PHB_SPELL_LEVITATE</extend>
+            <extend>ID_PHB_SPELL_MAGIC_WEAPON</extend>
+            <extend>ID_PHB_SPELL_PROTECTION_FROM_POISON</extend>
+            <extend>ID_PHB_SPELL_ROPE_TRICK</extend>
+            <extend>ID_PHB_SPELL_SEE_INVISIBILITY</extend>
+            <extend>ID_PHB_SPELL_SPIDER_CLIMB</extend>
+            <extend>ID_PHB_SPELL_BLINK</extend>
+            <extend>ID_PHB_SPELL_FLY</extend>
+            <extend>ID_PHB_SPELL_GASEOUS_FROM</extend>
+            <extend>ID_PHB_SPELL_GLYPH_OF_WARDING</extend>
+            <extend>ID_PHB_SPELL_HASTE</extend>
+            <extend>ID_PHB_SPELL_PROTECTION_FROM_ENERGY</extend>
+            <extend>ID_PHB_SPELL_REVIVIFY</extend>
+            <extend>ID_PHB_SPELL_WATER_BREATHING</extend>
+            <extend>ID_PHB_SPELL_WATER_WALK</extend>
+            <extend>ID_PHB_SPELL_ARCANE_EYE</extend>
+            <extend>ID_PHB_SPELL_DEATH_WARD</extend>
+            <extend>ID_PHB_SPELL_FABRICATE</extend>
+            <extend>ID_PHB_SPELL_FREEDOM_OF_MOVEMENT</extend>
+            <extend>ID_PHB_SPELL_LEOMUNDS_SECRET_CHEST</extend>
+            <extend>ID_PHB_SPELL_MORDENKAINENS_FAITHFUL_HOUND</extend>
+            <extend>ID_PHB_SPELL_MORDENKAINENS_PRIVATE_SANCTUM</extend>
+            <extend>ID_PHB_SPELL_OTILUKES_RESILIENT_SPHERE</extend>
+            <extend>ID_PHB_SPELL_STONE_SHAPE</extend>
+            <extend>ID_PHB_SPELL_STONESKIN</extend>
+        </spellcasting>
+        <rules>
+            <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
+
+            <stat name="artificer:spellcasting:slots:1" value="+2" level="3" />
+            <stat name="artificer:spellcasting:slots:1" value="+1" level="4" />
+            <stat name="artificer:spellcasting:slots:1" value="+1" level="7" />
+            <stat name="artificer:spellcasting:slots:2" value="+2" level="7" />
+            <stat name="artificer:spellcasting:slots:2" value="+1" level="10" />
+            <stat name="artificer:spellcasting:slots:3" value="+2" level="13" />
+            <stat name="artificer:spellcasting:slots:3" value="+1" level="16" />
+            <stat name="artificer:spellcasting:slots:4" value="+1" level="19" />
+            
+            <select type="Spell" name="Spell (Artificer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" number="3" spellcasting="Artificer"/>
+            <select type="Spell" name="Spell (Artificer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="4" spellcasting="Artificer"/>
+            <select type="Spell" name="Spell (Artificer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="7" spellcasting="Artificer"/>
+            <select type="Spell" name="Spell (Artificer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="8" spellcasting="Artificer"/>
+            <select type="Spell" name="Spell (Artificer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="10" spellcasting="Artificer"/>
+            <select type="Spell" name="Spell (Artificer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="11" spellcasting="Artificer"/>
+            <select type="Spell" name="Spell (Artificer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="13" spellcasting="Artificer"/>
+            <select type="Spell" name="Spell (Artificer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="14" spellcasting="Artificer"/>
+            <select type="Spell" name="Spell (Artificer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="16" spellcasting="Artificer"/>
+            <select type="Spell" name="Spell (Artificer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="19" spellcasting="Artificer"/>
+            <select type="Spell" name="Spell (Artificer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="20" spellcasting="Artificer"/>
+        </rules>
+    </element>
+    <element name="Ability Score Improvement (Artificer)" type="Class Feature" source="BrokenCampaign: Artificer" id="ID_BROKENCAMPAIGN_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_ARTIFICER">
+        <description>
+            <p>When you reach 4th level, and again at 8th, 12th, 16th, and 18th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Class Feature" name="Improvement Option (Artificer 4)" supports="Improvement Option,Artificer,4" level="4" />
+            <select type="Class Feature" name="Improvement Option (Artificer 8)" supports="Improvement Option,Artificer,8" level="8" />
+            <select type="Class Feature" name="Improvement Option (Artificer 12)" supports="Improvement Option,Artificer,12" level="12" />
+            <select type="Class Feature" name="Improvement Option (Artificer 16)" supports="Improvement Option,Artificer,16" level="16" />
+            <select type="Class Feature" name="Improvement Option (Artificer 18)" supports="Improvement Option,Artificer,18" level="18" />
+        </rules>
+    </element>
+    <element name="Infuse Magic" type="Class Feature" source="BrokenCampaign: Artificer" id="ID_BROKENCAMPAIGN_CLASS_FEATURE_ARTIFICER_INFUSE_MAGIC">
+        <description>
+            <p>Starting at 4th level, you gain the ability to channel your artificer spells into objects for later use. When you cast an artificer spell with a casting time of 1 action, you can increase its casting time to 1 minute. If you do so and hold a non-magical item throughout the casting, you expend a spell slot, but none of the spell's effects occur. Instead, the spell transfers into that item for later use if the item doesn't already contain a spell from this feature.</p>
+            <p class="indent">Any creature holding the item thereafter can use an action to activate the spell if the creature has an Intelligence score of at least 6. The spell is cast using your spellcasting ability, targeting the creature that activates the item. If the spell targets more than one creature, the creature that activates the item selects the additional targets. If the spell has an area of effect, it is centered on the item. If the spell's range is self, it targets the creature that activates the item.</p>
+            <p class="indent">When you infuse a spell in this way, it must be used within 8 hours. After that time, its magic fades and is wasted.</p>
+            <p class="indent">You can have a limited number of infused spells at the same time. The number equals your Intelligence modifier.</p>
+        </description>
+        <sheet>
+            <description>When you cast an artificer spell with a casting time of 1 action, you can increase its casting time to 1 minute, storing the spell inside a non-magical item.</description>
+        </sheet>
+    </element>
+    <element name="Mechanical Servant" type="Class Feature" source="BrokenCampaign: Artificer" id="ID_BROKENCAMPAIGN_CLASS_FEATURE_ARTIFICER_MECHANICAL_SERVANT">
+        <description>
+            <p>At 6th level, your research and mastery of your craft allow you to produce a mechanical servant. The servant is a construct that obeys your commands without hesitation and functions in combat to protect you. Though magic fuels its creation, the servant is not magical itself. You are assumed to have been working on the servant for quite some time, finally finishing it during a short or long rest after you reach 6th level.</p>
+            <p class="indent">Select a Large beast with a challenge rating of 2 or less. The servant uses that beast's game statistics, but it can look however you like, as long as its form is appropriate for its statistics. It has the following modifications:</p>
+            <ul>
+                <li>It is a construct instead of a beast.</li>
+                <li>It can't be charmed.</li>
+                <li>It is immune to poison damage and the poisoned condition.</li>
+                <li>It gains darkvision with a range of 60 feet if it doesn't have it already.</li>
+                <li>It understands the languages you can speak when you create it, but it can't speak.</li>
+                <li>If you are the target of a melee attack and the servant is within 5 feet of the attacker, you can use your reaction to command the servant to respond, using its reaction to make a melee attack against the attacker.</li>
+            </ul>
+            <p class="indent">The servant obeys your orders to the best of its ability. In combat, it rolls its own initiative and acts on its own.</p>
+            <p class="indent">If the servant is killed, it can be returned to life via normal means, such as with the revivify spell. In addition, over the course of a long rest, you can repair a slain servant if you have access to its body. It returns to life with 1 hit point at the end of the rest. If the servant is beyond recovery, you can build a new one with one week of work(eight hours each day) and 1,000 gp of raw materials.</p>
+        </description>
+        <sheet>
+            <description>Your research and mastery of your craft allow you to produce a mechanical servant.</description>
+        </sheet>
+    </element>
+    <element name="Soul of Artifice" type="Class Feature" source="BrokenCampaign: Artificer" id="ID_BROKENCAMPAIGN_CLASS_FEATURE_ARTIFICER_SOUL_OF_ARTIFICE">
+        <description>
+            <p>At 20th level, your understanding of magic items is unmatched, allowing you to mingle your soul with items linked to you. In addition, you gain a +1 bonus to all saving throws per magic item you are currently attuned to.</p>
+        </description>
+        <sheet>
+            <description>You gain a +1 bonus to all saving throws per magic item you are currently attuned to.</description>
+        </sheet>
+        <rules />
+    </element>
+    
+    <!-- Alchemist -->
+    <element name="Alchemist" type="Archetype" source="BrokenCampaign: Artificer" id="ID_BROKENCAMPAIGN_ARCHETYPE_ALCHEMIST">
+        <supports>Artificer Specialist</supports>
+        <requirements />
+        <description>
+            <p>An alchemist is an expert at combining exotic reagents to produce a variety of materials, from healing draughts that can mend a wound in moments to clinging goo that slows creatures down.</p>
+            <div element="ID_BROKENCAMPAIGN_ARCHETYPE_FEATURE_ALCHEMIST_ALCHEMISTS_SATCHEL" />
+            <div element="ID_BROKENCAMPAIGN_ARCHETYPE_FEATURE_ALCHEMIST_ALCHEMICAL_FORMULA" />
+            <div element="ID_BROKENCAMPAIGN_SPELL_ALCHEMICAL_FIRE" />
+            <div element="ID_BROKENCAMPAIGN_SPELL_ALCHEMICAL_ACID" />
+            <div element="ID_BROKENCAMPAIGN_SPELL_HEALING_DRAUGHT" />
+            <div element="ID_BROKENCAMPAIGN_SPELL_SMOKE_STICK" />
+            <div element="ID_BROKENCAMPAIGN_SPELL_SWIFT_STEP_DRAUGHT" />
+            <div element="ID_BROKENCAMPAIGN_SPELL_TANGLEFOOT_BAG" />
+            <div element="ID_BROKENCAMPAIGN_SPELL_THUNDERSTONE" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant name="ID_BROKENCAMPAIGN_ARCHETYPE_FEATURE_ALCHEMIST_ALCHEMISTS_SATCHEL" type="Archetype Feature" level="1"/>
+            <grant name="ID_BROKENCAMPAIGN_ARCHETYPE_FEATURE_ALCHEMIST_ALCHEMICAL_FORMULA" type="Archetype Feature" level="1"/>
+        </rules>
+    </element>
+    <element name="Alchemist's Satchel" type="Archetype Feature" source="BrokenCampaign: Artificer" id="ID_BROKENCAMPAIGN_ARCHETYPE_FEATURE_ALCHEMIST_ALCHEMISTS_SATCHEL">
+        <description>
+            <p>At 1st level, you craft an Alchemist's Satchel, abag of reagents that you use to create a variety of concoctions. The bag and its contents are both magical, and this magic allows you to pull out exactly the right materials you need for your Alchemical Formula options, described below. After you use one of those options, the bag reclaims the materials.</p>
+            <p class="indent">If you lose this satchel, you can create a new one over the course of three days of work (eight hours each day) by expending 100 gp worth of leather, glass, and other raw materials.</p>
+        </description>
+        <sheet>
+            <description>You now have an Alchemist's Satchel, containing all materials required for your Alchemical Formulas.</description>
+        </sheet>
+    </element>
+    <!-- Alchemical Formulas -->
+    <element name="Alchemical Fire" type="Spell" source="BrokenCampaign: Artificer" id="ID_BROKENCAMPAIGN_SPELL_ALCHEMICAL_FIRE">
+        <supports>Alchemical Formula</supports>
+        <description>
+            <p>As an action, you can reach into your Alchemist's Satchel, pull out a vial of volatile liquid, and hurl the vial at a creature, object, or surface within 30 feet of you (the vial and its contents disappear if you don't hurl the vial by the end of the current turn). On impact, the vial detonates in a 5-foot radius. Any creature in that area must succeed on a Dexterity saving throw or take 1d6 fire damage.</p>
+            <p class="indent">This formula's fire damage increases by 1d6 when you reach certain levels in this class: 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">0</set>
+            <set name="school">Alchemy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">Alchemist's Satchel</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Alchemical Acid" type="Spell" source="BrokenCampaign: Artificer" id="ID_BROKENCAMPAIGN_SPELL_ALCHEMICAL_ACID">
+        <supports>Alchemical Formula</supports>
+        <description>
+            <p>As an action, you can reach into your Alchemist's Satchel, pull out a vial of acid, and hurl the vial at a creature or object within 30 feet of you (the vial and its contents disappear if you don't hurl the vial by the end of the current turn). The vial shatters on impact. A creature must succeed on a Dexterity saving throw or take 1d6 acid damage. An object automatically takes that damage, and the damage is maximized.</p>
+            <p class="indent">This formula's acid damage increases by 1d6 when you reach certain levels in this class: 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">0</set>
+            <set name="school">Alchemy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">Alchemist's Satchel</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Healing Draught" type="Spell" source="BrokenCampaign: Artificer" id="ID_BROKENCAMPAIGN_SPELL_HEALING_DRAUGHT">
+        <supports>Alchemical Formula</supports>
+        <description>
+            <p>As an action, you can reach into your Alchemist's Satchel and pull out a vial of healing liquid. A creature can drink it as an action to regain 1d8 hit points. The vial then disappears. Once a creature regains hit points from this alchemical formula, the creature can't do so again until it finishes a long rest. If not used, the vial and its contents disappear after 1 hour. While the vial exists, you can't use this formula.</p>
+            <p class="indent">This formula's healing increases by 1d8 when you reach certain levels in this class: 	5th level (2d8), 11th level (3d8), and 17th level (4d8)</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">0</set>
+            <set name="school">Alchemy</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 hour</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">Alchemist's Satchel</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Smoke Stick" type="Spell" source="BrokenCampaign: Artificer" id="ID_BROKENCAMPAIGN_SPELL_SMOKE_STICK">
+        <supports>Alchemical Formula</supports>
+        <description>
+            <p>As an action, you can reach into your Alchemist's Satchel and pull out a stick that produces a thick plume of smoke. You can hold on to the stick or throw it to a point up to 30 feet away as part of the action used to produce it. The area in a 10-foot radius around the stick is filled with thick smoke that blocks vision, including darkvision. The stick and smoke persist for 1 minute and then disappear. After using this formula, you can't do so again for 1 minute.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">0</set>
+            <set name="school">Alchemy</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 minute</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">Alchemist's Satchel</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Tanglefoot Bag" type="Spell" source="BrokenCampaign: Artificer" id="ID_BROKENCAMPAIGN_SPELL_TANGLEFOOT_BAG">
+        <supports>Alchemical Formula</supports>
+        <description>
+            <p>As an action, you can reach into your Alchemist's Satchel and pull out a bag filled with writhing, sticky black tar and hurl it at a point on the ground within 30 feet of you (the bag and its contents disappear if you don't hurl the bag by the end of the current turn). The bag bursts on impact and covers the ground in a 10-foot radius with sticky goo. That area becomes difficult terrain for 1 minute, and any creature that starts its turn on the ground in that area has its speed halved for that turn. After using this formula, you can't do so again for 1 minute.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">0</set>
+            <set name="school">Alchemy</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 minute</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">Alchemist's Satchel</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Thunderstone" type="Spell" source="BrokenCampaign: Artificer" id="ID_BROKENCAMPAIGN_SPELL_THUNDERSTONE">
+        <supports>Alchemical Formula</supports>
+        <description>
+            <p>As an action, you can reach into your Alchemist's Satchel and pull out a crystalline shard and hurl it at a creature, object, or surface within 30 feet of you (the shard disappears if you don't hurl it by the end of the current turn). The shard shatters on impact with a blast of concussive energy. Each creature within 10 feet of the point of impact must succeed on a Constitution saving throw or be knocked prone and pushed 10 feet away from that point.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">0</set>
+            <set name="school">Alchemy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">Alchemist's Satchel</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <!-- /Alchemical Formulas -->
+    <element name="Alchemical Formula" type="Archetype Feature" source="BrokenCampaign: Artificer" id="ID_BROKENCAMPAIGN_ARCHETYPE_FEATURE_ALCHEMIST_ALCHEMICAL_FORMULA">
+        <description>
+            <p>At 1st level, you learn three Alchemical Formula options: Alchemical Fire, Alchemical Acid, and one other option of your choice. You learn an additional formula of your choice at 3rd, 9th, 14th, and 17th levels.</p>
+            <p class="indent">To use any of these options, your Alchemist's Satchel must be within reach.</p>
+            <p class="indent">If an Alchemical Formula option requires a saving throw, the DC is 8 + your proficiency bonus + your Intelligence modifier.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_BROKENCAMPAIGN_SPELL_ALCHEMICAL_FIRE" level="1" spellcasting="Artificer"/>
+            <grant type="Spell" id="ID_BROKENCAMPAIGN_SPELL_ALCHEMICAL_ACID" level="1" spellcasting="Artificer"/>
+            <select type="Spell" name="Alchemical Formula" supports="Alchemical Formula" level="1" />
+            <select type="Spell" name="Alchemical Formula (3)" supports="Alchemical Formula" level="3" />
+            <select type="Spell" name="Alchemical Formula (9)" supports="Alchemical Formula" level="9" />
+            <select type="Spell" name="Alchemical Formula (14)" supports="Alchemical Formula" level="14" />
+            <select type="Spell" name="Alchemical Formula (17)" supports="Alchemical Formula" level="17" />
+        </rules>
+    </element>
+ </elements>
