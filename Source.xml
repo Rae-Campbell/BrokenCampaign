@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+	<update version="0.1">
+		<file name="Source.xml" url="https://raw.githubusercontent.com/Rae-Campbell/BrokenCampaign/master/Source.xml" />
+	</update>
+	</info>
  <element name="Broken Campaign" type="Source" source="Broken Campaign" id="ID_SOURCE_BROKEN_CAMPAIGN">
 		 <description>
 			 <p>
@@ -7,6 +12,7 @@
 			 </p>
 		 </description>
         <setters>
+	<set name="url">https://raw.githubusercontent.com/Rae-Campbell/BrokenCampaign/master/</set>
             <set name="abbreviation">BC</set>
             <set name="author" abbreviation="RC">Rae Campbell</set>
             <set name="homebrew">true</set>
