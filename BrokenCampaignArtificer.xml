@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+	<update version="0.1">
+		<file name="BrokenCampaignArtificer.xml" url="https://raw.githubusercontent.com/Rae-Campbell/BrokenCampaign/master/BrokenCampaignArtificer.xml" />
+	</update>
+	</info>
     <element name="Artificer" type="Class" source="BrokenCampaign" id="ID_BROKENCAMPAIGN_CLASS_ARTIFICER">
         <supports />
         <requirements />
