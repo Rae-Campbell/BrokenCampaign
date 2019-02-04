@@ -45,7 +45,7 @@
         </setters>
         <sheet display="false"/>
         <rules>
-	<select type="Proficiency" name="Musical Instrument" supports="Musical Instrument" number="1" />
+	<select type="Proficiency" name="Musical Instrument (Elle)" supports="Musical Instrument" number="1" />
             <grant type="Proficiency" name="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_BROKENCAMPAIGN_MULTICLASS_ARTIFICER"/>
             <grant type="Proficiency" name="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_BROKENCAMPAIGN_MULTICLASS_ARTIFICER"/>
             <grant type="Proficiency" name="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_BROKENCAMPAIGN_MULTICLASS_ARTIFICER"/>
