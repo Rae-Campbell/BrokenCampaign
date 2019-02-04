@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Wizard's Dagger I" type="Weapon" source="BrokenCampaign" id="ID_BROKENCAMPAIGN_WEAPON_DAGGER_I">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+		<description>
+			<p></p>
+			<p class="indent"> Tier I: Normal Dagger. </p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="slot">onehand</set>
+			<set name="range">5/60</set>
+			<set name="damage" type="piercing">1d4</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+		</setters>
+		<rules />
+	</element>
+	<element name="Wizard's Dagger II" type="Weapon" source="BrokenCampaign" id="ID_BROKENCAMPAIGN_WEAPON_DAGGER_II">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+		<description>
+		<p></p>
+			<p class="indent"> Tier II: +1 to Hit/ Damage. +1 to Spell Attack. </p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="slot">onehand</set>
+			<set name="range">5/60</set>
+			<set name="damage" type="magical piercing">2d4</set>
+			<set name="enhancement">1</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+		</setters>
+		<rules />
+	</element>
+	<element name="Wizard's Dagger III" type="Weapon" source="BrokenCampaign" id="ID_BROKENCAMPAIGN_WEAPON_DAGGER_III">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+			<description>
+			<p></p>
+			<p class="indent"> Tier III: +2 to Hit/ Damage. +2 to Spell Attack. </p>
+			<p>Life Steal: You gain temporary hit points equal to the damage dealt by the weapon. </p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="slot">onehand</set>
+			<set name="range">5/60</set>
+			<set name="damage" type="magical piercing">2d4</set>
+			<set name="enhancement">2</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+		</setters>
+		<rules />
+	</element>
+	<element name="Wizard's Dagger IV" type="Weapon" source="BrokenCampaign" id="ID_BROKENCAMPAIGN_WEAPON_DAGGER_IV">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+		<description>
+		<p></p>
+			<p class="indent"> Tier IV: +3 to Hit/ Damage. +3 to Spell Attack. </p>
+			<p> Life Steal: You gain temporary hit points equal to the damage dealt by the weapon; equal to 1/2 damage dealt by a single target spell; equal to 1/4 the total damage dealt by a multitarget spell. </p>
+			<p> Overpowered: If thrown and hits target further than 20ft, weapon deals an additional 2D4 of piercing damage. Weapon will return to owner upon target falling below 0 HP.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="slot">onehand</set>
+			<set name="range">5/80</set>
+			<set name="damage" type="magical piercing">3d6</set>
+			<set name="enhancement">3</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+		</setters>
+		<rules />
+	</element>
+	<element name="Leather Bracelet" type="Armor" source="BrokenCampaign" id="ID_BROKENCAMPAIGN_MAGE_ARMOR_AC">
+	<description>
+			<p>Leather strips woven into a bracelet. Material component of Mage Armor Spell.</p>
+		</description>
+	<setters>
+			<set name="weight" lb="0">—</set>
+			<set name="slot">arms</set>
+			<set name="armor">Light</set>
+			<set name="armorClass">13 + Dex modifier</set>
+		</setters>
+		<rules>
+			<stat name="AC" value="+3" bonus="armor" />
+		</rules>
+	</element>	
+	<element name="Healing Charm" type="Magic Item" source="BrokenCampaign" id="ID_BROKENCAMPAIGN_HEALING_CHARM">		
+		<description>
+			<p>This charm has 2 charges. You can expend 1 charge as an action to regain 2d4 hit points. Once all charges are expended, it loses its magical property and becomes an useless trinket.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="0">—</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+		</setters>
+		<rules />
+	</element>
+	<element name="Amulet of Flame" type="Magic Item" source="BrokenCampaign" id="ID_BROKENCAMPAIGN_FLAMING_AMULET">		
+		<description>
+			<p>This cursed Red Sunstone amulet burns whomever touches it for the first time. It has 3 charges. Once all charges are expended, the curse is broken.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="0">—</set>
+			<set name="slot">neck</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+		</setters>
+		<rules />
+	</element>
+	<element name="Harpy Feather" type="Item" source="BrokenCampaign" id="ID_BROKENCAMPAIGN_HARPY_FEATHER">		
+		<description>
+			<p>Feather from a Harpy</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+		<rules />
+	</element>
+	<element name="Identification Card" type="Item" source="BrokenCampaign" id="ID_BROKENCAMPAIGN_CITIZENSHIP_PAPERS">		
+		<description>
+			<p></p>
+			<table>
+				<thead>
+					<tr><td>Type</td><td>Kingdom</td></tr>
+				</thead>
+				<tbody>
+					<tr><td>Grim Totem</td><td>Orc-Goblin</td></tr>
+				</tbody>
+			</table>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="stackable">true</set>
+		</setters>
+		<rules />
+	</element>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<element name="Hestia" type="Deity" source="BrokenCampaign" id="ID_GREEK_BROKENCAMPAIGN_DEITY_HESTIA">
+		<description>
+			<p class="flavor">goddess of home, hearth, and family</p>
+		</description>
+		<setters>
+			<set name="setting">Greek</set>
+			<set name="alignment">NG</set>
+			<set name="domains">Home, Hearth, Family</set>
+			<set name="symbol">Fire</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>goddess of home, hearth, and family</description>
+		</sheet>
+	</element>
+</elements>
