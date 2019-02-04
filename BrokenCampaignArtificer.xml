@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-    <info>
-        <name>Broken Campaign: Artificer</name>
-        <description>Makers of magic-infused objects, artificers are defined by their inventive nature.</description>
-        <author url="http://dnd.wizards.com/articles/unearthed-arcana/artificer">Wizards of the Coast</author>
-        <update version="0.0.7">
-            <file name="BrokenCampaignArtificer.xml" url="https://raw.githubusercontent.com/Rae-Campbell/BrokenCampaign/master/BrokenCampaignArtificer.xml" />
-        </update>
-    </info>
-	 <element name="Broken Campaign" type="Source" source="Broken Campaign" id="ID_SOURCE_BROKEN_CAMPAIGN">
+	<element name="Broken Campaign" type="Source" source="Broken Campaign" id="ID_SOURCE_BROKEN_CAMPAIGN">
 		 <description>
 			 <p>
 			A Broken Doctor production, filled with homebrew BS.	 
@@ -21,6 +13,13 @@
             <set name="release">20190205</set>
         </setters>
     </element>
+    <info>
+        <name>Broken Campaign: Artificer</name>
+        <description>Makers of magic-infused objects, artificers are defined by their inventive nature.</description>
+        <update version="0.0.7">
+            <file name="BrokenCampaignArtificer.xml" url="https://raw.githubusercontent.com/Rae-Campbell/BrokenCampaign/master/BrokenCampaignArtificer.xml" />
+        </update>
+    </info>
     <element name="Artificer" type="Class" source="BrokenCampaign" id="ID_BROKENCAMPAIGN_CLASS_ARTIFICER">
         <supports />
         <requirements />
