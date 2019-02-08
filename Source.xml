@@ -12,9 +12,9 @@
 			 </p>
 		 </description>
         <setters>
-	<set name="url">https://raw.githubusercontent.com/Rae-Campbell/BrokenCampaign/master/</set>
+	<set name="url">https://raw.githubusercontent.com/Rae-Campbell/BrokenCampaign/master/BrokenCampaign.index</set>
             <set name="abbreviation">BC</set>
-            <set name="author" abbreviation="RC">Rae Campbell</set>
+            <set name="author" abbreviation="RC">Code Rae Campbell</set>
             <set name="homebrew">true</set>
             <set name="release">20190205</set>
         </setters>
