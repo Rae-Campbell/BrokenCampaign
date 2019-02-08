@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Harden Boots" type="Item" source="BrokenCampaign" id="ID_BROKENCAMPAIGN_VIBRATION_BOOTS">		
+		<description>
+			<p>A gift from my mother.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="slot">feet</set>
+		</setters>
+		<rules />
+	</element>
+		<element name="Divination Gloves" type="Item" source="BrokenCampaign" id="ID_BROKENCAMPAIGN_ARCANE_GLOVES">		
+		<description>
+			<p class="indent">These gloves have clear placeholder gems on each knuckle (8 total) and flat tiger's eye divination crystals on each palm. Using the <em>Mending</em> spell or weaver's tools, placeholder gems can be replaced with magically infused gems, relaying the effects as if worn normally.</p>
+			<p>A gift from my mother. They aid my reading and writing.</p>
+			<table>
+				<thead>
+					<tr><td>Place</td><td>Gem</td><td>Effect</td></tr>
+				</thead>
+				<tbody>
+					<tr><td>Left  1</td><td>Placeholder</td><td>None</td></tr>
+					<tr><td>Left  2</td><td>Placeholder</td><td>None</td></tr>
+					<tr><td>Left  3</td><td>Placeholder</td><td>None</td></tr>
+					<tr><td>Left  4</td><td>Placeholder</td><td>None</td></tr>
+					<tr><td>Right 1</td><td>Placeholder</td><td>None</td></tr>
+					<tr><td>Right 2</td><td>Placeholder</td><td>None</td></tr>
+					<tr><td>Right 3</td><td>Placeholder</td><td>None</td></tr>
+					<tr><td>Right 4</td><td>Placeholder</td><td>None</td></tr>
+				</tbody>
+			</table>
+		</description>
+		<setters>
+			<set name="category">Spellcasting Focus</set>
+			<set name="slot">hands</set>
+		</setters>
+		<rules />
+	</element>
+	<element name="Lessor Explorer’s Pack" type="Item" source="BrokenCampaign" id="ID_BROKENCAMPAIGN_ITEM_LESSOR_EXPLORERS_PACK">
+		<description>
+			<p>Includes a backpack, a bedroll, a mess kit, a tinderbox, a waterskin, and a pen pouch (ink pens 3).</p>
+		</description>
+		<setters>
+			<set name="category">Equipment Packs</set>
+			<set name="weight" lb="5">5 lbs.</set>
+		</setters>
+	</element>
+	<element name="Component Pouch (Filled)" type="Item" source="BrokenCampaign" id="ID_BROKENCAMPAIGN_ITEM_FILLED_COMPONENT_POUCH">
+		<description>
+			<p>Legume Seed, Small White Rock Chip, Lightening Charged Twig, Copper Wire, String Piece, and Wood Bit</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="weight" lb="2">2 lbs.</set>
+		</setters>
+	</element>
+	<element name="Journal" type="Magic Item" source="BrokenCampaign" id="ID_BROKENCAMPAIGN_MAGIC_ITEM_JOURNAL_OF_DEVOURING">
+		<description>
+			<p>Superficially, the journal is a fuzzy leather bound book with a simple belt buckle latch.</p>
+			<p class="indent">The extradimensional creature attached to it can sense magical signatures. If anything other than my divination gloves attempts to open the book or latch, the creature will possess the physical form of the book and attempt to devour any nearby animal or vegetable matter. A targeted creature can try to escape with a successful DC 15 Strength check. Another creature can use its action to pull a creature out, doing so with a successful DC 20 Strength check. Any creature that cannot escape within (1 minute/turn per size modifier) is devoured, its body destroyed.</p>
+			<p>The pages are filled with entries written in Dwarfish, along with a few full page sketches. It will append new pages that touch its spine.</p>
+			<p>If the beast is summoned, only a lightning based spell from me can return it to dormancy.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+</elements>
